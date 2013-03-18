@@ -1,0 +1,7 @@
+RewriteCond %{HTTP_HOST} ^(www.)?dominio.com$
+RewriteCond %{REQUEST_URI} !^/path/
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ /path/$1
+RewriteCond %{HTTP_HOST} ^(www.)?dominio.com$
+RewriteRule ^(/)?$ path/index.php [L]
