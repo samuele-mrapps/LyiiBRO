@@ -2,6 +2,7 @@ Direttive apache per indicare la cartella root di un dominio
 ------------------------------------------------------------
 
 ::
+
     RewriteEngine on
     RewriteCond %{HTTP_HOST} ^(www.)?dominio.com$
     RewriteCond %{REQUEST_URI} !^/path/
