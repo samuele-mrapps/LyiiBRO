@@ -61,7 +61,8 @@ Phing
 MySQL
 =====
 
-.. include:: mysql/mysqldump.rst
+.. include:: mysql/cli.rst
+.. include:: mysql/tips.rst
 
 sqlite3
 =======
